@@ -7,7 +7,7 @@ const routerViewsConfig = [
     [
         {
             ...routesRegexp.board,
-            component: routes.Board
+            component: routes.Discover
         }
     ],
     [
