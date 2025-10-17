@@ -68,6 +68,9 @@ importers:
       magnet-uri:
         specifier: 6.2.0
         version: 6.2.0
+      pnpm:
+        specifier: ^10.18.3
+        version: 10.18.3
       prop-types:
         specifier: 15.8.1
         version: 15.8.1
@@ -3833,6 +3836,11 @@ packages:
   pngjs@3.4.0:
     resolution: {integrity: sha512-NCrCHhWmnQklfH4MtJMRjZ2a8c80qXeMlQMv2uVp9ISJMTt562SbGd6n2oq0PaPgKm7Z6pL9E2UlLIhC+SHL3w==}
     engines: {node: '>=4.0.0'}
+
+  pnpm@10.18.3:
+    resolution: {integrity: sha512-u9FubXKG/X4B9rPAs8kyzaKWXAapCDKPdGY/EKmupR8RKe6mFRNL+ZKDGwCeq+Fn7LcAi1l/QP+bx1lGqt+wjQ==}
+    engines: {node: '>=18.12'}
+    hasBin: true
 
   possible-typed-array-names@1.1.0:
     resolution: {integrity: sha512-/+5VFTchJDoVj3bhoqi6UeymcD00DAwb1nJwamzPvHEszJ4FpF6SNNbUbOS8yI56qHzdV8eK0qEfOSiodkTdxg==}
@@ -9558,6 +9566,8 @@ snapshots:
       find-up: 6.3.0
 
   pngjs@3.4.0: {}
+
+  pnpm@10.18.3: {}
 
   possible-typed-array-names@1.1.0: {}
 
