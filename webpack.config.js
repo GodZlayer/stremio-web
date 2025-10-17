@@ -43,7 +43,7 @@ module.exports = (env, argv) => ({
         worker: './node_modules/@stremio/stremio-core-web/worker.js'
     },
     output: {
-        path: path.join(__dirname, 'build'),
+        path: path.join(__dirname, 'public-animeflix'),
         filename: `${COMMIT_HASH}/scripts/[name].js`
     },
     module: {
